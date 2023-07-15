@@ -1,0 +1,1121 @@
+<div class="preloader" style="display: none;">
+    <div class="loader">
+        <div class="ytp-spinner">
+            <div class="ytp-spinner-container">
+                <div class="ytp-spinner-rotator">
+                    <div class="ytp-spinner-left">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                    <div class="ytp-spinner-right">
+                        <div class="ytp-spinner-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="header-area">
+    <div class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">
+                            <script data-pagespeed-no-defer="">
+                                (function() {
+                                    for (var g = "function" == typeof Object.defineProperties ? Object.defineProperty : function(b, c, a) {
+                                            if (a.get || a.set) throw new TypeError("ES3 does not support getters and setters.");
+                                            b != Array.prototype && b != Object.prototype && (b[c] = a.value)
+                                        }, h = "undefined" != typeof window && window === this ? this : "undefined" != typeof global && null != global ? global : this, k = ["String", "prototype", "repeat"], l = 0; l < k.length - 1; l++) {
+                                        var m = k[l];
+                                        m in h || (h[m] = {});
+                                        h = h[m]
+                                    }
+                                    var n = k[k.length - 1],
+                                        p = h[n],
+                                        q = p ? p : function(b) {
+                                            var c;
+                                            if (null == this) throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");
+                                            c = this + "";
+                                            if (0 > b || 1342177279 < b) throw new RangeError("Invalid count value");
+                                            b |= 0;
+                                            for (var a = ""; b;)
+                                                if (b & 1 && (a += c), b >>>= 1) c += c;
+                                            return a
+                                        };
+                                    q != p && null != q && g(h, n, {
+                                        configurable: !0,
+                                        writable: !0,
+                                        value: q
+                                    });
+                                    var t = this;
+
+                                    function u(b, c) {
+                                        var a = b.split("."),
+                                            d = t;
+                                        a[0] in d || !d.execScript || d.execScript("var " + a[0]);
+                                        for (var e; a.length && (e = a.shift());) a.length || void 0 === c ? d[e] ? d = d[e] : d = d[e] = {} : d[e] = c
+                                    };
+
+                                    function v(b) {
+                                        var c = b.length;
+                                        if (0 < c) {
+                                            for (var a = Array(c), d = 0; d < c; d++) a[d] = b[d];
+                                            return a
+                                        }
+                                        return []
+                                    };
+
+                                    function w(b) {
+                                        var c = window;
+                                        if (c.addEventListener) c.addEventListener("load", b, !1);
+                                        else if (c.attachEvent) c.attachEvent("onload", b);
+                                        else {
+                                            var a = c.onload;
+                                            c.onload = function() {
+                                                b.call(this);
+                                                a && a.call(this)
+                                            }
+                                        }
+                                    };
+                                    var x;
+
+                                    function y(b, c, a, d, e) {
+                                        this.h = b;
+                                        this.j = c;
+                                        this.l = a;
+                                        this.f = e;
+                                        this.g = {
+                                            height: window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight,
+                                            width: window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
+                                        };
+                                        this.i = d;
+                                        this.b = {};
+                                        this.a = [];
+                                        this.c = {}
+                                    }
+
+                                    function z(b, c) {
+                                        var a, d, e = c.getAttribute("data-pagespeed-url-hash");
+                                        if (a = e && !(e in b.c))
+                                            if (0 >= c.offsetWidth && 0 >= c.offsetHeight) a = !1;
+                                            else {
+                                                d = c.getBoundingClientRect();
+                                                var f = document.body;
+                                                a = d.top + ("pageYOffset" in window ? window.pageYOffset : (document.documentElement || f.parentNode || f).scrollTop);
+                                                d = d.left + ("pageXOffset" in window ? window.pageXOffset : (document.documentElement || f.parentNode || f).scrollLeft);
+                                                f = a.toString() + "," + d;
+                                                b.b.hasOwnProperty(f) ? a = !1 : (b.b[f] = !0, a = a <= b.g.height && d <= b.g.width)
+                                            }
+                                        a && (b.a.push(e), b.c[e] = !0)
+                                    }
+                                    y.prototype.checkImageForCriticality = function(b) {
+                                        b.getBoundingClientRect && z(this, b)
+                                    };
+                                    u("pagespeed.CriticalImages.checkImageForCriticality", function(b) {
+                                        x.checkImageForCriticality(b)
+                                    });
+                                    u("pagespeed.CriticalImages.checkCriticalImages", function() {
+                                        A(x)
+                                    });
+
+                                    function A(b) {
+                                        b.b = {};
+                                        for (var c = ["IMG", "INPUT"], a = [], d = 0; d < c.length; ++d) a = a.concat(v(document.getElementsByTagName(c[d])));
+                                        if (a.length && a[0].getBoundingClientRect) {
+                                            for (d = 0; c = a[d]; ++d) z(b, c);
+                                            a = "oh=" + b.l;
+                                            b.f && (a += "&n=" + b.f);
+                                            if (c = !!b.a.length)
+                                                for (a += "&ci=" + encodeURIComponent(b.a[0]), d = 1; d < b.a.length; ++d) {
+                                                    var e = "," + encodeURIComponent(b.a[d]);
+                                                    131072 >= a.length + e.length && (a += e)
+                                                }
+                                            b.i && (e = "&rd=" + encodeURIComponent(JSON.stringify(B())), 131072 >= a.length + e.length && (a += e), c = !0);
+                                            C = a;
+                                            if (c) {
+                                                d = b.h;
+                                                b = b.j;
+                                                var f;
+                                                if (window.XMLHttpRequest) f = new XMLHttpRequest;
+                                                else if (window.ActiveXObject) try {
+                                                    f = new ActiveXObject("Msxml2.XMLHTTP")
+                                                } catch (r) {
+                                                    try {
+                                                        f = new ActiveXObject("Microsoft.XMLHTTP")
+                                                    } catch (D) {}
+                                                }
+                                                f && (f.open("POST", d + (-1 == d.indexOf("?") ? "?" : "&") + "url=" + encodeURIComponent(b)), f.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"), f.send(a))
+                                            }
+                                        }
+                                    }
+
+                                    function B() {
+                                        var b = {},
+                                            c;
+                                        c = document.getElementsByTagName("IMG");
+                                        if (!c.length) return {};
+                                        var a = c[0];
+                                        if (!("naturalWidth" in a && "naturalHeight" in a)) return {};
+                                        for (var d = 0; a = c[d]; ++d) {
+                                            var e = a.getAttribute("data-pagespeed-url-hash");
+                                            e && (!(e in b) && 0 < a.width && 0 < a.height && 0 < a.naturalWidth && 0 < a.naturalHeight || e in b && a.width >= b[e].o && a.height >= b[e].m) && (b[e] = {
+                                                rw: a.width,
+                                                rh: a.height,
+                                                ow: a.naturalWidth,
+                                                oh: a.naturalHeight
+                                            })
+                                        }
+                                        return b
+                                    }
+                                    var C = "";
+                                    u("pagespeed.CriticalImages.getBeaconData", function() {
+                                        return C
+                                    });
+                                    u("pagespeed.CriticalImages.Run", function(b, c, a, d, e, f) {
+                                        var r = new y(b, c, a, e, f);
+                                        x = r;
+                                        d && w(function() {
+                                            window.setTimeout(function() {
+                                                A(r)
+                                            }, 0)
+                                        })
+                                    });
+                                })();
+                                pagespeed.CriticalImages.Run('/ngx_pagespeed_beacon', 'https://preview.uideck.com/items/smart-demo/assets/smart/index.html', 'RCCUltOb55', true, false, 'xDpTL90QvBQ');
+                            </script><img src="data:image/webp;base64,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"
+                                alt="Logo" data-pagespeed-url-hash="175736524" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="pagespeed_img_F9ilm3lb431">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEight" aria-controls="navbarEight" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="toggler-icon"></span>
+    <span class="toggler-icon"></span>
+    <span class="toggler-icon"></span>
+    </button>
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarEight">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="page-scroll" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#home">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#about">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#portfolio">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#pricing">PRICING</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#testimonial">CLIENTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#contact">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="navbar-btn d-none mt-15 d-lg-inline-block">
+                            <a class="menu-bar" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#side-menu-right"><i class="lni-menu"></i></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="home" class="slider-area">
+        <div class="bd-example">
+            <div id="carouselOne" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselOne" data-slide-to="0" class=""></li>
+                    <li data-target="#carouselOne" data-slide-to="1" class=""></li>
+                    <li data-target="#carouselOne" data-slide-to="2" class="active"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item bg_cover" style="background-image:url(assets/images/xslider-1.jpg.pagespeed.ic.MppZK5G9jY.webp)">
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-lg-7 col-sm-10">
+                                        <h2 class="carousel-title">Refreshing Design &amp; Easy to Customize</h2>
+                                        <ul class="carousel-btn rounded-buttons">
+                                            <li><a class="main-btn rounded-three" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">GET STARTED</a></li>
+                                            <li><a class="main-btn rounded-one" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">DOWNLOAD</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item bg_cover" style="background-image:url(assets/images/xslider-2.jpg.pagespeed.ic.VepfBj60HI.webp)">
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-lg-7 col-sm-10">
+                                        <h2 class="carousel-title">Based on Latest Bootstrap &amp; HTML5</h2>
+                                        <ul class="carousel-btn rounded-buttons">
+                                            <li><a class="main-btn rounded-three" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">GET STARTED</a></li>
+                                            <li><a class="main-btn rounded-one" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">DOWNLOAD</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item bg_cover active" style="background-image:url(assets/images/xslider-3.jpg.pagespeed.ic.lBSTVXL4Wv.webp)">
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-6 col-lg-7 col-sm-10">
+                                        <h2 class="carousel-title">Multi-purpose Landing Page Template</h2>
+                                        <ul class="carousel-btn rounded-buttons">
+                                            <li><a class="main-btn rounded-three" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">GET STARTED</a></li>
+                                            <li><a class="main-btn rounded-one" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">DOWNLOAD</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#carouselOne" role="button" data-slide="prev">
+                    <i class="lni-arrow-left-circle"></i>
+                </a>
+                <a class="carousel-control-next" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#carouselOne" role="button" data-slide="next">
+                    <i class="lni-arrow-right-circle"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="sidebar-right">
+    <div class="sidebar-close">
+        <a class="close" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#close"><i class="lni-close"></i></a>
+    </div>
+    <div class="sidebar-content">
+        <div class="sidebar-logo text-center">
+            <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><img src="data:image/webp;base64,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"
+                    alt="Logo" data-pagespeed-url-hash="1715009148" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="pagespeed_img_jYm5AxjvW62"></a>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">ABOUT</a></li>
+                <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">SERVICES</a></li>
+                <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">RESOURCES</a></li>
+                <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-social d-flex align-items-center justify-content-center">
+            <span>FOLLOW US</span>
+            <ul>
+                <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-twitter-original"></i></a></li>
+                <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-facebook-filled"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="overlay-right"></div>
+
+
+<section id="about" class="about-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-8">
+                <div class="about-image text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-offset="100" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;">
+                    <img src="assets/xservices.png.pagespeed.ic.NvpnRrbSOK.webp" alt="services" data-pagespeed-url-hash="4130045623" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                </div>
+                <div class="section-title text-center mt-30 pb-40">
+                    <h4 class="title wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.6s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.6s; animation-name: fadeInUp;">The future of designing starts here</h4>
+                    <p class="text wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1s; animation-name: fadeInUp;">An open platform for presentations and content collaboration. Sign up to get early access.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.2s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInUp;">
+                    <div class="about-icon">
+                        <img src="assets/xicon-1.png.pagespeed.ic.g0bYjYhs1C.webp" alt="Icon" data-pagespeed-url-hash="885023190" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Powerful templates</h4>
+                        <p class="text">Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.4s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.4s; animation-name: fadeInUp;">
+                    <div class="about-icon">
+                        <img src="assets/xicon-2.png.pagespeed.ic.rwQE5_kTv3.webp" alt="Icon" data-pagespeed-url-hash="1179523111" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Designed for everyone</h4>
+                        <p class="text">Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.6s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.6s; animation-name: fadeInUp;">
+                    <div class="about-icon">
+                        <img src="assets/xicon-3.png.pagespeed.ic.-N1UxD2Wmz.webp" alt="Icon" data-pagespeed-url-hash="1474023032" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Work anywhere</h4>
+                        <p class="text">Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="single-about d-sm-flex mt-30 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.8s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 1.8s; animation-name: fadeInUp;">
+                    <div class="about-icon">
+                        <img src="assets/xicon-4.png.pagespeed.ic.wGoZODz9Wo.webp" alt="Icon" data-pagespeed-url-hash="1768522953" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="about-content media-body">
+                        <h4 class="about-title">Updated in real time</h4>
+                        <p class="text">Poorly designed presentations are a thing of the past. Create beautiful and high-quality content that is aligned.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="portfolio" class="portfolio-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Our Portfolio</h3>
+                    <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="portfolio-menu pt-30 text-center">
+                    <ul>
+                        <li data-filter="*" class="active">ALL WORK</li>
+                        <li data-filter=".branding-3">BRANDING</li>
+                        <li data-filter=".marketing-3">MARKETING</li>
+                        <li data-filter=".planning-3">PLANNING</li>
+                        <li data-filter=".research-3">RESEARCH</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row grid" style="position: relative; height: 808px;">
+            <div class="col-lg-4 col-sm-6 branding-3 planning-3" style="position: absolute; left: 0px; top: 0px;">
+                <div class="single-portfolio mt-30">
+                    <div class="portfolio-image">
+                        <img src="assets/xportfolio-1.png.pagespeed.ic.vXJcccZ7Ot.webp" alt="" data-pagespeed-url-hash="540109853" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="https://preview.uideck.com/items/smart-demo/assets/smart/assets/images/portfolio-1.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                                <div class="portfolio-icon">
+                                    <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Graphics Design</a></h4>
+                        <p class="text">Short description for the ones who look for something new. Awesome!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 marketing-3 research-3" style="position: absolute; left: 380px; top: 0px;">
+                <div class="single-portfolio mt-30">
+                    <div class="portfolio-image">
+                        <img src="assets/xportfolio-2.png.pagespeed.ic.UECaUDd2RH.webp" alt="" data-pagespeed-url-hash="834609774" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="https://preview.uideck.com/items/smart-demo/assets/smart/assets/images/portfolio-2.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                                <div class="portfolio-icon">
+                                    <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Graphics Design</a></h4>
+                        <p class="text">Short description for the ones who look for something new. Awesome!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 branding-3 marketing-3" style="position: absolute; left: 760px; top: 0px;">
+                <div class="single-portfolio mt-30">
+                    <div class="portfolio-image">
+                        <img src="assets/xportfolio-3.png.pagespeed.ic.anZXiM4Du7.webp" alt="" data-pagespeed-url-hash="1129109695" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="https://preview.uideck.com/items/smart-demo/assets/smart/assets/images/portfolio-3.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                                <div class="portfolio-icon">
+                                    <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Graphics Design</a></h4>
+                        <p class="text">Short description for the ones who look for something new. Awesome!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 planning-3 research-3" style="position: absolute; left: 0px; top: 404px;">
+                <div class="single-portfolio mt-30">
+                    <div class="portfolio-image">
+                        <img src="assets/xportfolio-4.png.pagespeed.ic.SaC1L2ITt6.webp" alt="" data-pagespeed-url-hash="1423609616" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="https://preview.uideck.com/items/smart-demo/assets/smart/assets/images/portfolio-4.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                                <div class="portfolio-icon">
+                                    <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Graphics Design</a></h4>
+                        <p class="text">Short description for the ones who look for something new. Awesome!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 marketing-3" style="position: absolute; left: 380px; top: 404px;">
+                <div class="single-portfolio mt-30">
+                    <div class="portfolio-image">
+                        <img src="assets/xportfolio-5.png.pagespeed.ic.eK4Hkv7u9z.webp" alt="" data-pagespeed-url-hash="1718109537" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="https://preview.uideck.com/items/smart-demo/assets/smart/assets/images/portfolio-5.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                                <div class="portfolio-icon">
+                                    <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Graphics Design</a></h4>
+                        <p class="text">Short description for the ones who look for something new. Awesome!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 planning-3" style="position: absolute; left: 760px; top: 404px;">
+                <div class="single-portfolio mt-30">
+                    <div class="portfolio-image">
+                        <img src="assets/xportfolio-6.png.pagespeed.ic.H1A_hc1lC2.webp" alt="" data-pagespeed-url-hash="2012609458" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        <div class="portfolio-overlay d-flex align-items-center justify-content-center">
+                            <div class="portfolio-content">
+                                <div class="portfolio-icon">
+                                    <a class="image-popup" href="https://preview.uideck.com/items/smart-demo/assets/smart/assets/images/portfolio-6.png"><i class="lni-zoom-in"></i></a>
+                                </div>
+                                <div class="portfolio-icon">
+                                    <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-text">
+                        <h4 class="portfolio-title"><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Graphics Design</a></h4>
+                        <p class="text">Short description for the ones who look for something new. Awesome!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="pricing" class="pricing-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Pricing Plan</h3>
+                    <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-7 col-sm-9">
+                <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <div class="pricing-icon text-center">
+                        <img src="assets/wman.svg" alt="" data-pagespeed-url-hash="3419201987" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="pricing-header text-center">
+                        <h5 class="sub-title">Basic</h5>
+                        <p class="month"><span class="price">$ 199</span>/month</p>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
+                            <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn rounded-buttons text-center">
+                        <a class="main-btn rounded-three" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">GET STARTED</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9">
+                <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <div class="pricing-icon text-center">
+                        <img src="assets/wman.svg" alt="" data-pagespeed-url-hash="3419201987" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="pricing-header text-center">
+                        <h5 class="sub-title">Pro</h5>
+                        <p class="month"><span class="price">$ 399</span>/month</p>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
+                            <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn rounded-buttons text-center">
+                        <a class="main-btn rounded-three" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">GET STARTED</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-7 col-sm-9">
+                <div class="pricing-style-one mt-40 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.8s; animation-name: fadeIn;">
+                    <div class="pricing-icon text-center">
+                        <img src="assets/wman.svg" alt="" data-pagespeed-url-hash="3419201987" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </div>
+                    <div class="pricing-header text-center">
+                        <h5 class="sub-title">Enterprise</h5>
+                        <p class="month"><span class="price">$ 699</span>/month</p>
+                    </div>
+                    <div class="pricing-list">
+                        <ul>
+                            <li><i class="lni-check-mark-circle"></i> Carefully crafted components</li>
+                            <li><i class="lni-check-mark-circle"></i> Amazing page examples</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-btn rounded-buttons text-center">
+                        <a class="main-btn rounded-three" href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">GET STARTED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="call-action" class="call-action-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="call-action-content mt-45">
+                    <h3 class="action-title">Get latest updates!</h3>
+                    <p class="text">We never spam your email</p>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="call-action-form mt-50">
+                    <form action="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">
+                        <input type="text" placeholder="Enter your email">
+                        <div class="action-btn rounded-buttons">
+                            <button class="main-btn rounded-three">subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="testimonial" class="testimonial-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Testimonial</h3>
+                    <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="row testimonial-active slick-initialized slick-slider slick-dotted">
+                    <div class="slick-list draggable">
+                        <div class="slick-track" style="opacity: 1; width: 4180px; transform: translate3d(-1140px, 0px, 0px);">
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-1.jpg.pagespeed.ic.LT5zWavqKa.webp" alt="Author" data-pagespeed-url-hash="1500797272" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Fiona</h6>
+                                        <span class="sub-title">Lead Designer, UIdeck</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-2.jpg.pagespeed.ic.wko01I0ecD.webp" alt="Author" data-pagespeed-url-hash="1795297193" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Elon Musk</h6>
+                                        <span class="sub-title">CEO, SpaceX</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-4.jpg.pagespeed.ic.EqbCdcyhG7.webp" alt="Author" data-pagespeed-url-hash="2384297035" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Fajar Siddiq</h6>
+                                        <span class="sub-title">CEO, MakerFlix</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-3.jpg.pagespeed.ic.8MeaLH0m8L.webp" alt="Author" data-pagespeed-url-hash="2089797114" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Isabela Moreira</h6>
+                                        <span class="sub-title">CEO, GrayGrids</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-1.jpg.pagespeed.ic.LT5zWavqKa.webp" alt="Author" data-pagespeed-url-hash="1500797272" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Fiona</h6>
+                                        <span class="sub-title">Lead Designer, UIdeck</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-2.jpg.pagespeed.ic.wko01I0ecD.webp" alt="Author" data-pagespeed-url-hash="1795297193" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Elon Musk</h6>
+                                        <span class="sub-title">CEO, SpaceX</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-4.jpg.pagespeed.ic.EqbCdcyhG7.webp" alt="Author" data-pagespeed-url-hash="2384297035" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Fajar Siddiq</h6>
+                                        <span class="sub-title">CEO, MakerFlix</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-3.jpg.pagespeed.ic.8MeaLH0m8L.webp" alt="Author" data-pagespeed-url-hash="2089797114" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Isabela Moreira</h6>
+                                        <span class="sub-title">CEO, GrayGrids</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-1.jpg.pagespeed.ic.LT5zWavqKa.webp" alt="Author" data-pagespeed-url-hash="1500797272" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Fiona</h6>
+                                        <span class="sub-title">Lead Designer, UIdeck</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-2.jpg.pagespeed.ic.wko01I0ecD.webp" alt="Author" data-pagespeed-url-hash="1795297193" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Elon Musk</h6>
+                                        <span class="sub-title">CEO, SpaceX</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 380px;">
+                                <div class="single-testimonial mt-30 mb-30 text-center">
+                                    <div class="testimonial-image">
+                                        <img src="assets/xauthor-4.jpg.pagespeed.ic.EqbCdcyhG7.webp" alt="Author" data-pagespeed-url-hash="2384297035" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                    </div>
+                                    <div class="testimonial-content">
+                                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed! Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                                        <h6 class="author-name">Fajar Siddiq</h6>
+                                        <span class="sub-title">CEO, MakerFlix</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <ul class="slick-dots" style="display: block;" role="tablist">
+                        <li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li>
+                        <li role="presentation" class=""><button type="button" role="tab" id="slick-slide-control03" aria-controls="slick-slide03" aria-label="4 of 2" tabindex="-1">4</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="client" class="client-logo-area">
+    <div class="container">
+        <div class="row client-active slick-initialized slick-slider">
+            <div class="slick-list draggable">
+                <div class="slick-track" style="opacity: 1; width: 4180px; transform: translate3d(-2280px, 0px, 0px);">
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="-6" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_03.png.pagespeed.ic.X4OPTn2hGJ.webp" alt="Logo" data-pagespeed-url-hash="3263022708" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="-5" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_04.png.pagespeed.ic.TK4B28mkWj.webp" alt="Logo" data-pagespeed-url-hash="3557522629" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_05.png.pagespeed.ic.rntuFHtE3P.webp" alt="Logo" data-pagespeed-url-hash="3852022550" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <script data-pagespeed-no-defer="">
+                                (function() {
+                                    window.pagespeed = window.pagespeed || {};
+                                    var a = window.pagespeed;
+
+                                    function b() {}
+                                    b.prototype.a = function(d, e, c) {
+                                        if (d = document.getElementById(d))
+                                            if (e = document.getElementById(e))
+                                                if (c = document.getElementById(c)) e.src = d.getAttribute("src"), c.parentNode.removeChild(c)
+                                    };
+                                    b.prototype.inlineImg = b.prototype.a;
+                                    a.b = function() {
+                                        a.dedupInlinedImages = new b
+                                    };
+                                    a.dedupInlinedImagesInit = a.b;
+                                })();
+                                pagespeed.dedupInlinedImagesInit();
+                            </script><img alt="Logo" data-pagespeed-url-hash="4146522471" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="" src="data:image/webp;base64,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">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img alt="Logo" data-pagespeed-url-hash="146055096" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="" src="data:image/webp;base64,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">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_08.png.pagespeed.ic.X4OPTn2hGJ.webp" alt="Logo" data-pagespeed-url-hash="440555017" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="data:image/webp;base64,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"
+                                alt="Logo" data-pagespeed-url-hash="2674022866" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="pagespeed_img_PgfPE6n0of3">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="data:image/webp;base64,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"
+                                alt="Logo" data-pagespeed-url-hash="2968522787" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="pagespeed_img_1eMunfTIBm4">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_03.png.pagespeed.ic.X4OPTn2hGJ.webp" alt="Logo" data-pagespeed-url-hash="3263022708" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_04.png.pagespeed.ic.TK4B28mkWj.webp" alt="Logo" data-pagespeed-url-hash="3557522629" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_05.png.pagespeed.ic.rntuFHtE3P.webp" alt="Logo" data-pagespeed-url-hash="3852022550" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <script data-pagespeed-no-defer="">
+                                (function() {
+                                    window.pagespeed = window.pagespeed || {};
+                                    var a = window.pagespeed;
+
+                                    function b() {}
+                                    b.prototype.a = function(d, e, c) {
+                                        if (d = document.getElementById(d))
+                                            if (e = document.getElementById(e))
+                                                if (c = document.getElementById(c)) e.src = d.getAttribute("src"), c.parentNode.removeChild(c)
+                                    };
+                                    b.prototype.inlineImg = b.prototype.a;
+                                    a.b = function() {
+                                        a.dedupInlinedImages = new b
+                                    };
+                                    a.dedupInlinedImagesInit = a.b;
+                                })();
+                                pagespeed.dedupInlinedImagesInit();
+                            </script><img alt="Logo" data-pagespeed-url-hash="4146522471" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="pagespeed_img_1eMunfTIBm5" src="data:image/webp;base64,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">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-current slick-active" data-slick-index="6" aria-hidden="false" tabindex="0" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img alt="Logo" data-pagespeed-url-hash="146055096" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="pagespeed_img_PgfPE6n0of7" src="data:image/webp;base64,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">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-active" data-slick-index="7" aria-hidden="false" tabindex="0" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_08.png.pagespeed.ic.X4OPTn2hGJ.webp" alt="Logo" data-pagespeed-url-hash="440555017" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned slick-active" data-slick-index="8" aria-hidden="false" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="data:image/webp;base64,UklGRqAJAABXRUJQVlA4TJMJAAAvBkEgEKDgNpIkSeL/v51mHp5ZBWTP7NERFKhtW6ZEz/z/EBbdjUoKi0kMmIRu227bvQWsnTN2d3d3C4tdhE2ndVC6mQAmnwmAX///gllXw3T7GeCoVZk1vH4C2KtF1OisEczenxq8KpLM/eVxUB8QNTgljsWbY6u8IKI3ZnF5byR8/SO9Iap1XPxbuxrukOqCiB6ayeW1AXD0r2dMBVG99fq8NgDQ30bvCyK9x6aye20ArP3uJnVCROdfHADwl6SYKUl7dwBEs7UEKe9OJ3GuqWIMUt+cntYowi7ttbH3s1uU2JXbIfSl6WO3CuxMMkxgA6+cj3+kM2JXbqdIeOXMxDpCiUNZ5rKBd85KOg5V2ysCXjsHzc1Lf3GFF89eTdBqrxgSePXBS4l84e1z0E7lkpEEeP+szOAH/3gkMvsR4GiqZ3x+AIQ4oBoZeL499n53hw4RqV6fDRjfnx0/Bbb944hISnILkZRwB4GUcAeBlHAbgXhmY6Jk/1kEwgmReJtAE+1y32v5CmRLd9k8sTot8DLeene8kKdAjgwXJRnC7IyNby1yXaYcBXI9l0ruR7ZnuhpugWsy5SiQI905s/WdsBRFFnlcSMTa4JEc+V664De2gVR/MjIyMpEuJG1GkWXRggBI9CGLAiesyTI7ACDoK5qMjIxMtF6Bqz8cly7XrIEgE+330Gv58r12z3qj2OyJcUc7TpVKJB4Id0UrThWYTjLjYYfPOFVhPdsZKyt8wCGDB6IbP8yWAYC+nmH1wYgLWw247A4A0UeMbk3EYjYGAJgrx+gJABAtU4OIaGUx2B0dOFRuha47ujmAxx7pMeFoHwOeuqP7gChJPZ56Z+jE94rwkMEmQtKTIVkCYCI1DulNuajekgpAVJZcnxhajLr4kDwA4OguRksDG8fwVJ4BGyyk4KJ8No2fbFxUxKGwcBEXqQxrpjLiuUOERJ8sBuNxrkM4AFtVW1IAiEqTa2veJ/eBpfs44uwZnqsTvuAwrjpfePmIq+4wC8zdwFW1PJPRWGmVKNFe0PIDiTw1H6BMIrBVuyXtQe6BQzhi6SlWVfJUFvSZy5FwrCocMk+S7T4UJr0DSw+wyrHBvxa7SV/QhECOVYX9ks1zTH1BpwIPlckn8wQyZ87PHHlJO/+ZJOfwWDSw8Z76SpeYaKirKw9y1WCckWN20gg2BNbiHGIIaO+RQ8Vl9gAArKQkpAj+wsxgPhEAQKym4ikRAIRqL06wBwDQQ37RzvfiAEbPuEBk5UlA52b+pzmzHghcuF8dStT6c8vc2T/IC28GlgMIoA10pkD2G2NgEHLATEnyghQiWx+SfFIAYKOymAHZHwWFA4BUzA5B5qspoZkAwJMqKGYLlZuKQMlzFBVabKhovyorMkgg25youMD0MUNGGvMAbMNoLnRrAtpwoBdDMh2qHUkDBwDwO2ZpUFkqLaYCCKJPatgXcLi4AADmYDQFhrYHNPbIUbYAAAYXSm7FtsLzYyilSDZSGA9dgaPaoJA44EUdvDwwGrMhzdhEyQuAIKsY3MCmYj+ApZhtgW5ikQUAbgaNLCfikj0nTkAkeJ1Qn29hPz/IvsdoEUy9DDQHAs3339U8Lk1souYDwJUq+chyILFIBaLcxChmIKp4RwAuWoJ6c8wY2pa8JZkpZZfA3iLqS5gH3frkpBlTZQEPFg2Z+A6zVBj6TZPG6DJw1JK8Zzbgq1ZjlM0CyHDfF11mxkOl+C62wND/afVB/i12TVhyymxAP6bkKQyJHDlF9iTghxvUsBt5z6JZ9FXUsZ14+THCJ1YX/02mxmOWMhmbeIN6DiPzoZv/VeyHIVHJBzDnpIdQERIsm9hRzN0xvbixJPEGjSMmfb6UMRNdfH4YL2NtdFWpBm1M2C/2Fgt2zClSl8xPbpCJORfBbOI9i88Tu6KV+4S1ykBnLJnoYzEbhrtEiccXe4o9O2YXz5YkJmdhubkDn+e7Ffkw1cXnwMQPHmiIZ7h5saVI2TGlKCPdMSnJIdzk+BcwY0X6iKg0oLEPMJcWxzTaJlYW+YQVIwutkB2jkkZ2N1nzBZxa8XAE3iSL7zMLu2YXzTNBOE9jJ/4sdIJXhDImlLRjcEKxN1n8eSyVr7g/cz9Ju00YVVFgFk+4ip34pqC/VzhpKu7sCGBIdnwnVwf6MtznWKLkdpdzmB1hBdn0CU+aopTlBqniokPACgtFSYVuX8mNgVV4n5kJJd7ETUtyC7ojE1JFBU3eANsKOrIC9iSk+DQa3iseN46qH0BWVHG+x1iMtEIbwdsJkDdfeG0Y2hh8veLnQiXowxgFrigiFqvxATorTmjfPTYmFbo08UwjwYwF3SNZ0MnHgir5brDXlFAO689CkSMShUk9myRCxxPAqoLG3eLomRQcgbSGzuh6BpY0VMRvARwtKIXVZ9haTByBrMQkNohWgY8QTFdojLrDrqRN92I8Hhg2QI8EnummvKEK3y4IpSkoU8+PsK5Im7mW0AuhpMwEWEiDzwDHCzL66waTEzqdjKE+AYcGSGk97wkJAIDJA0QXhB2BzQ3Vm8d6wEeXp1hQGE0cSS5Iq1SZDrz6QPsAnpQF0R39Bmx5znhTJnTZ9wIEGukcEx6xUzxA1Oq6Jb4Xwp+/EMMtcN7oC4njE6STbq2fhAngJ1iMOQ5YH9gobIg+2WuyPvwFGGCyzTKohT3FtwWZHPODQP7C/WPCRW+m0tWYxPAAMGeAdO5aKkEQP72MsMgpVU7NwMWCSEePV20MMxCqYnJloqVlQkTTLsDc/Umk1cGAiK4FEKhmcKWlw6vQp7DTXBCRnhbRuQu4cSRZH3wC2DK4MuhgREQ84ae2ZWpL6Q5AkBcH1eQArJw4yS4k0EfxrD4GrJpcHQl60x+4QTDoGSS2zqqTB+AbmgOT9cET0M0h2g3TE4BEdRuuFeDp9oavHqOb7BWwcCaDPRj6DACz1C44fQIiZE3U+h0MS6h7A9DfUW1Hmn3bgBeF6iM66xuAkZ4eMQkGAP6YySeWFTENuLs2czqBOdoHtusMIL4Yf1GbZG0AD5s0HzlyBDr5zS0VjIioVablfAH4UlCQk5NTWMpmAsDfNBe81sx4YdAo2w2rDecBYy7GOCxdFf2FkVqxu3YbJ4hkAiQG2uihL/QXJlrl0p02Ux9SAGBnBQU5OTm51QZNxFhNTk5OTkHBcwBgpLPytQd6dbIlF9DbMR8ZERmVOSoGAIAvBQU5OTm5VYIAgOgfCiuttNJKChNXAHib6qJsKqYLg2Z5btsggfPZr/9/hwsA"
+                                alt="Logo" data-pagespeed-url-hash="2674022866" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned slick-active" data-slick-index="9" aria-hidden="false" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="data:image/webp;base64,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"
+                                alt="Logo" data-pagespeed-url-hash="2968522787" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned slick-active" data-slick-index="10" aria-hidden="false" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_03.png.pagespeed.ic.X4OPTn2hGJ.webp" alt="Logo" data-pagespeed-url-hash="3263022708" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned slick-active" data-slick-index="11" aria-hidden="false" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_04.png.pagespeed.ic.TK4B28mkWj.webp" alt="Logo" data-pagespeed-url-hash="3557522629" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="12" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_05.png.pagespeed.ic.rntuFHtE3P.webp" alt="Logo" data-pagespeed-url-hash="3852022550" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="13" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <script data-pagespeed-no-defer="">
+                                (function() {
+                                    window.pagespeed = window.pagespeed || {};
+                                    var a = window.pagespeed;
+
+                                    function b() {}
+                                    b.prototype.a = function(d, e, c) {
+                                        if (d = document.getElementById(d))
+                                            if (e = document.getElementById(e))
+                                                if (c = document.getElementById(c)) e.src = d.getAttribute("src"), c.parentNode.removeChild(c)
+                                    };
+                                    b.prototype.inlineImg = b.prototype.a;
+                                    a.b = function() {
+                                        a.dedupInlinedImages = new b
+                                    };
+                                    a.dedupInlinedImagesInit = a.b;
+                                })();
+                                pagespeed.dedupInlinedImagesInit();
+                            </script><img alt="Logo" data-pagespeed-url-hash="4146522471" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="" src="data:image/webp;base64,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">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="14" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img alt="Logo" data-pagespeed-url-hash="146055096" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" id="" src="data:image/webp;base64,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">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 slick-slide slick-cloned" data-slick-index="15" aria-hidden="true" tabindex="-1" style="width: 190px;">
+                        <div class="single-client text-center">
+                            <img src="assets/xclient_logo_08.png.pagespeed.ic.X4OPTn2hGJ.webp" alt="Logo" data-pagespeed-url-hash="440555017" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="contact-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="section-title text-center pb-20">
+                    <h3 class="title">Get in touch</h3>
+                    <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="contact-two mt-50 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.2s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <h4 class="contact-title">Lets talk about the project</h4>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam unde repellendus delectus facilis quia consequatur maxime perferendis! Sequi, modi consequatur.</p>
+                    <ul class="contact-info">
+                        <li><i class="lni-money-location"></i> Elizabeth St, Melbourne, Australia</li>
+                        <li><i class="lni-phone-handset"></i> +333 789-321-654</li>
+                        <li><i class="lni-envelope"></i> hello@ayroui.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-form form-style-one mt-35 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeIn;">
+                    <form id="contact-form" action="https://preview.uideck.com/items/smart-demo/assets/smart/assets/contact.php" method="post">
+                        <div class="form-input mt-15">
+                            <label>Name</label>
+                            <div class="input-items default">
+                                <input type="text" placeholder="Name" name="name">
+                                <i class="lni-user"></i>
+                            </div>
+                        </div>
+                        <div class="form-input mt-15">
+                            <label>Email</label>
+                            <div class="input-items default">
+                                <input type="email" placeholder="Email" name="email">
+                                <i class="lni-envelope"></i>
+                            </div>
+                        </div>
+                        <div class="form-input mt-15">
+                            <label>Massage</label>
+                            <div class="input-items default">
+                                <textarea placeholder="Massage" name="massage"></textarea>
+                                <i class="lni-pencil-alt"></i>
+                            </div>
+                        </div>
+                        <p class="form-message"></p>
+                        <div class="form-input rounded-buttons mt-20">
+                            <button type="submit" class="main-btn rounded-three">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="footer" class="footer-area">
+    <div class="footer-widget">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="footer-title">Company</h6>
+                        <ul>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">About</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Contact</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Profile</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="footer-title">Solutions</h6>
+                        <ul>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Facilities Services</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Workplace Staffing</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Project Management</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="footer-title">Product &amp; Services</h6>
+                        <ul>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Products</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Business</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Developer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="footer-link">
+                        <h6 class="footer-title">Help &amp; Suuport</h6>
+                        <ul>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Support Center</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">FAQ</a></li>
+                            <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#">Terms &amp; Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="copyright text-center text-lg-left mt-10">
+                        <p class="text">Crafted by <a style="color: #38f9d7" rel="nofollow" href="https://uideck.con/">UIdeck</a> and UI Elements from <a style="color: #38f9d7" rel="nofollow" href="https://ayroui.com/">Ayro UI</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer-logo text-center mt-10">
+                        <a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html"><img src="assets/logo-2.svg" alt="Logo" data-pagespeed-url-hash="3894847632" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <ul class="social text-center text-lg-right mt-10">
+                        <li><a href="https://facebook.com/uideckHQ"><i class="lni-facebook-filled"></i></a></li>
+                        <li><a href="https://twitter.com/uideckHQ"><i class="lni-twitter-original"></i></a></li>
+                        <li><a href="https://instagram.com/uideckHQ"><i class="lni-instagram-original"></i></a></li>
+                        <li><a href="https://preview.uideck.com/items/smart-demo/assets/smart/index.html#"><i class="lni-linkedin-original"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
